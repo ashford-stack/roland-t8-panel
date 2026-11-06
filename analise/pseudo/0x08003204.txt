@@ -1,0 +1,17 @@
+
+void rxisr_9_3204(int *param_1)
+
+{
+  if (param_1[0x21] == 0x21) {
+    if (*(short *)((int)param_1 + 0x56) == 0) {
+      *(uint *)*param_1 = *(uint *)*param_1 & 0xffffff7f;
+      *(uint *)*param_1 = *(uint *)*param_1 | 0x40;
+      return;
+    }
+    *(uint *)(*param_1 + 0x28) = *(ushort *)param_1[0x14] & 0x1ff;
+    param_1[0x14] = param_1[0x14] + 2;
+    *(short *)((int)param_1 + 0x56) = *(short *)((int)param_1 + 0x56) + -1;
+  }
+  return;
+}
+

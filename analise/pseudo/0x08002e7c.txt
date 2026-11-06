@@ -1,0 +1,69 @@
+
+void rxisr_16_2e7c(int *param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  int *piVar3;
+  int iVar4;
+  uint uVar5;
+  uint uVar6;
+  
+  iVar1 = param_1[0x18];
+  piVar3 = (int *)*param_1;
+  uVar6 = piVar3[7];
+  iVar4 = *piVar3;
+  uVar5 = piVar3[2];
+  if (param_1[0x22] == 0x22) {
+    iVar2 = param_1[0x1a];
+    while (((short)iVar2 != 0 && ((int)(uVar6 << 0x1a) < 0))) {
+      *(byte *)param_1[0x16] = (byte)*(undefined4 *)(*param_1 + 0x24) & (byte)(short)iVar1;
+      param_1[0x16] = param_1[0x16] + 1;
+      *(short *)((int)param_1 + 0x5e) = *(short *)((int)param_1 + 0x5e) + -1;
+      uVar6 = *(uint *)(*param_1 + 0x1c);
+      if ((uVar6 & 7) != 0) {
+        if (((uVar6 & 1) != 0) && (iVar4 << 0x17 < 0)) {
+          *(undefined4 *)(*param_1 + 0x20) = 1;
+          param_1[0x23] = param_1[0x23] | 1;
+        }
+        if (((int)(uVar6 << 0x1e) < 0) && ((uVar5 & 1) != 0)) {
+          *(undefined4 *)(*param_1 + 0x20) = 2;
+          param_1[0x23] = param_1[0x23] | 4;
+        }
+        if (((int)(uVar6 << 0x1d) < 0) && ((uVar5 & 1) != 0)) {
+          *(undefined4 *)(*param_1 + 0x20) = 4;
+          param_1[0x23] = param_1[0x23] | 2;
+        }
+        if (param_1[0x23] != 0) {
+          FUN_08002464(param_1);
+          param_1[0x23] = 0;
+        }
+      }
+      if (*(short *)((int)param_1 + 0x5e) == 0) {
+        *(uint *)*param_1 = *(uint *)*param_1 & 0xfffffeff;
+        *(uint *)(*param_1 + 8) = *(uint *)(*param_1 + 8) & 0xeffffffe;
+        param_1[0x22] = 0x20;
+        param_1[0x1c] = 0;
+        if (param_1[0x1b] == 1) {
+          *(uint *)*param_1 = *(uint *)*param_1 & 0xffffffef;
+          FUN_080023cc(param_1,(short)param_1[0x17]);
+        }
+        else {
+          FUN_08002808(param_1);
+        }
+        param_1[0x1b] = 0;
+      }
+    }
+    if ((*(ushort *)((int)param_1 + 0x5e) != 0) &&
+       (*(ushort *)((int)param_1 + 0x5e) < *(ushort *)(param_1 + 0x1a))) {
+      *(uint *)(*param_1 + 8) = *(uint *)(*param_1 + 8) & 0xefffffff;
+      param_1[0x1c] = 0x8002e01;
+      *(uint *)*param_1 = *(uint *)*param_1 | 0x20;
+    }
+  }
+  else {
+    piVar3[6] = piVar3[6] | 8;
+  }
+  return;
+}
+

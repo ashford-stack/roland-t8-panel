@@ -1,0 +1,8 @@
+
+void cb_3a04(void)
+
+{
+  FUN_08003a4c(8);
+  return;
+}
+

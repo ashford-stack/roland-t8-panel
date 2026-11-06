@@ -1,0 +1,19 @@
+T8_UPD.BIN TEST — update-route audit (Oct 22)
+Goal: prove whether the device loader accepts a recomputable CRC32 (= the solder-free
+overlay route) or imposes extra validation.
+
+Changes relative to the original (T8_UPD.BIN in ../t8_sys_v102/):
+ 1. VA 0x08005033 (final byte of the panel payload, inert padding, outside the
+    code — never executed): 0x00 -> 0x01.
+ 2. @0x2C field of the App_Panel header: payload CRC32 recomputed.
+Everything ELSE intact: App_Main (encrypted) byte-for-byte, tar/USTAR/headers/sizes.
+If the device updates and boots 100% normally -> the loader accepts a recomputable CRC.
+If it fails / never starts the update -> there is extra validation (physical route = the only one).
+
+Procedure: same as used to extract the original (MSC mode), by dragging
+this file; the user's presets/config are not affected by the update; the
+original stays as a backup to restore if anything goes wrong.
+
+NOTE: the T8_UPD.BIN binary itself is not included in this repository (Roland firmware).
+This file documents the test bundle that was prepared but, per the user's decision,
+not flashed.

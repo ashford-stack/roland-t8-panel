@@ -1,0 +1,14 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_08003860(void)
+
+{
+  undefined4 *puVar1;
+  
+  puVar1 = _DAT_2000005c;
+  *_DAT_2000005c = 0;
+  puVar1[1] = 0;
+  return;
+}
+

@@ -1,0 +1,8 @@
+
+void FUN_0800397a(void)
+
+{
+  FUN_08003a4c(1);
+  return;
+}
+

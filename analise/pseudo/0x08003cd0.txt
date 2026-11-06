@@ -1,0 +1,13 @@
+
+void FUN_08003cd0(uint param_1,undefined1 param_2)
+
+{
+  int iVar1;
+  
+  if (param_1 < 0x1f) {
+    iVar1 = param_1 * 3;
+    FUN_080039ec((&DAT_08004f08)[iVar1],(&DAT_08004f09)[iVar1],(&DAT_08004f0a)[iVar1],param_2);
+  }
+  return;
+}
+

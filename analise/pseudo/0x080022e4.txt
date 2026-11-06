@@ -1,0 +1,53 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_080022e4(int *param_1)
+
+{
+  int iVar1;
+  
+  if (*param_1 == 0x40012c00) {
+    _DAT_20000018 = _DAT_20000018 + -1;
+    if (_DAT_20000018 < 0) {
+      _DAT_20000018 = -1;
+    }
+    _DAT_2000001c = _DAT_2000001c + 1;
+    if (3 < _DAT_2000001c) {
+      _DAT_2000001c = 0;
+      FUN_0800392c();
+    }
+    _DAT_20000010 = _DAT_20000010 + 1;
+    if (1 < _DAT_20000010) {
+      _DAT_20000010 = 0;
+      FUN_08003450();
+    }
+    _DAT_2000000c = _DAT_2000000c + 1;
+    if (199 < _DAT_2000000c) {
+      _DAT_2000000c = 0;
+      iVar1 = FUN_0800343c(0);
+      if (iVar1 != 0) {
+        FUN_08003a4c(8);
+      }
+    }
+    _DAT_20000014 = _DAT_20000014 + 1;
+    if (1999 < _DAT_20000014) {
+      _DAT_20000014 = 0;
+      FUN_08003a4c(0x40);
+    }
+  }
+  else if (*param_1 == 0x40000400) {
+    if (_DAT_20000020 == 0) {
+      FUN_08003960();
+    }
+    else if (_DAT_20000020 == 2) {
+      FUN_08003870();
+    }
+    _DAT_20000020 = _DAT_20000020 + 1;
+    if (_DAT_20000020 == 10) {
+      _DAT_20000020 = 0;
+    }
+  }
+  _DAT_20000028 = 0;
+  return;
+}
+

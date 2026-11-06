@@ -1,0 +1,8 @@
+
+void FUN_08003a4c(uint param_1)
+
+{
+  *(uint *)(DAT_20000004 * 4 + 0x2000002c) = *(uint *)(DAT_20000004 * 4 + 0x2000002c) | param_1;
+  return;
+}
+

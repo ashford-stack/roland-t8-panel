@@ -1,0 +1,5 @@
+=== T-8 MIDI logger (pygame.midi/PortMidi) ===
+  dev 0: Microsoft MIDI Mapper                    in=0 out=1 open=False
+  dev 1: T-8                                      in=1 out=0 open=False
+  dev 2: Microsoft GS Wavetable Synth             in=0 out=1 open=False
+  dev 3: T-8                                      in=0 out=1 open=False

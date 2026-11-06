@@ -1,0 +1,8 @@
+
+void FUN_08002960(void)
+
+{
+  FUN_0800215c(&DAT_2000026c);
+  return;
+}
+

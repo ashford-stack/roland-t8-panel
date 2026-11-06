@@ -1,0 +1,10 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_08003c44(void)
+
+{
+  _DAT_200013a4 = _DAT_200013a0;
+  return;
+}
+

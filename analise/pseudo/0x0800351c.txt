@@ -1,0 +1,14 @@
+
+void FUN_0800351c(void)
+
+{
+  uint uVar1;
+  
+  uVar1 = 0;
+  do {
+    *(undefined1 *)(uVar1 + 0x200013ac) = 0;
+    uVar1 = uVar1 + 1;
+  } while (uVar1 < 0x20);
+  return;
+}
+

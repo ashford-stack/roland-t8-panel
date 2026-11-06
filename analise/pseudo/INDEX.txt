@@ -1,0 +1,91 @@
+Index of the pseudo-C files (generated 2026-10-22, rev. 5 after audit)
+Format: <file> | <function signature> | <referenced datasets/globals>
+*.err.txt files = decompilation failure (content = error log).
+
+0x08000544.txt         | ?                  | 
+0x08000580.txt         | ?                  | 
+0x0800158c.txt         | ?                  | 
+0x08001f48.txt         | ?                  | 
+0x080022e4.txt         | ?                  | _DAT_2000000c, _DAT_20000010, _DAT_20000014, _DAT_20000018, _DAT_2000001c, _DAT_20000020
+0x08002464.txt         | ?                  | DAT_20000350, _DAT_20000350, _DAT_200003d8
+0x0800248c.txt         | ?                  | 
+0x0800275c.txt         | ?                  | _DAT_40021034, _DAT_40021040
+0x08002834.txt         | ?                  | 
+0x08002934.txt         | weak_2934          | 
+0x08002938.txt         | weak_2938          | 
+0x08002960.txt         | ?                  | DAT_2000026c
+0x08002970.txt         | weak_2970          | DAT_200002b8
+0x08002acc.txt         | ?                  | 
+0x08002cc4.txt         | ?                  | 
+0x08002e7c.txt         | ?                  | 
+0x08002fb8.txt         | ?                  | DAT_08004d0e, _DAT_40021054
+0x08003124.txt         | ?                  | 
+0x08003204.err.txt     | ?                  | 
+0x08003204.txt         | ?                  | 
+0x08003246.err.txt     | ?                  | 
+0x08003246.txt         | ?                  | 
+0x0800329e.err.txt     | ?                  | 
+0x0800329e.txt         | ?                  | 
+0x080032dc.err.txt     | ?                  | 
+0x080032dc.txt         | ?                  | 
+0x080033cc.txt         | ?                  | DAT_20000350
+0x080033dc.txt         | ?                  | _DAT_2000005c
+0x0800343c.txt         | ?                  | _DAT_2000109c
+0x08003450.txt         | ?                  | DAT_20000d3c
+0x08003460.txt         | ?                  | DAT_20000024, _DAT_20000008
+0x080034b4.txt         | ?                  | 
+0x080034c4.txt         | ?                  | 
+0x080034e8.txt         | ?                  | DAT_08004d88, DAT_08004d8c
+0x0800351c.txt         | ?                  | 
+0x08003530.txt         | ?                  | _DAT_20000e30
+0x08003604.txt         | ?                  | _DAT_40021034
+0x0800374c.txt         | ?                  | DAT_2000026c, _DAT_2000026c, _DAT_20000270, _DAT_20000274, _DAT_20000278, _DAT_2000027c
+0x080037e0.txt         | ?                  | DAT_200002b8, _DAT_200002b8, _DAT_200002bc, _DAT_200002c0, _DAT_200002c4, _DAT_200002c8
+0x08003854.txt         | ?                  | _DAT_20000d3c
+0x08003860.txt         | ?                  | _DAT_2000005c
+0x08003870.txt         | ?                  | 
+0x08003890.txt         | ?                  | DAT_20001084, _DAT_20001084
+0x080038a4.txt         | ?                  | 
+0x0800392c.txt         | ?                  | DAT_20000208, _DAT_20000060
+0x08003954.txt         | cb_3954            | 
+0x08003960.txt         | ?                  | 
+0x08003970.txt         | cb_3970            | 
+0x0800397a.txt         | ?                  | 
+0x08003984.txt         | ?                  | DAT_2000144c, DAT_2000144d
+0x080039ec.txt         | ?                  | 
+0x08003a04.txt         | ?                  | 
+0x08003a10.txt         | ?                  | _DAT_200013a0, _DAT_200013a4
+0x08003a4c.txt         | ?                  | DAT_20000004
+0x08003a64.txt         | ?                  | 
+0x08003a78.err.txt     | ?                  | 
+0x08003a78.txt         | ?                  | DAT_20000084, _DAT_2000131c, _DAT_200013a0, _DAT_200013a4, _DAT_200013a8
+0x08003c44.txt         | ?                  | _DAT_200013a0, _DAT_200013a4
+0x08003c50.txt         | ?                  | DAT_2000131c, _DAT_20000080
+0x08003c7a.err.txt     | ?                  | 
+0x08003cd0.txt         | ?                  | DAT_08004f08, DAT_08004f09, DAT_08004f0a
+0x08003d0c.txt         | ?                  | DAT_20000084, DAT_2000131c, _DAT_20000080
+0x08003d28.txt         | ?                  | DAT_20000084, DAT_2000131c, _DAT_20000080
+0x08003d40.txt         | ?                  | _DAT_2000109c
+0x08003de4.txt         | ?                  | DAT_20000350, _DAT_20000350, _DAT_20000354, _DAT_20000358, _DAT_2000035c, _DAT_20000360
+0x08003e5c.txt         | ?                  | _DAT_2000005c
+0x08003e90.txt         | ?                  | DAT_08004ea8, DAT_08004eaa
+0x08003eb0.txt         | ?                  | _DAT_20001450
+0x08003ebc.txt         | ?                  | _DAT_200013a8
+0x08003ec8.txt         | ?                  | DAT_20000058, DAT_20000350
+0x08003f08.txt         | ?                  | _DAT_200014e0
+0x08003f74.txt         | ?                  | 
+0x08003fc0.txt         | ?                  | DAT_20000024, DAT_20000025, DAT_20000026
+0x08004010.txt         | ?                  | DAT_08004108, DAT_1fff7590, DAT_1fff7591, DAT_1fff7592, DAT_1fff7593, DAT_1fff7594
+0x0800412c.txt         | ?                  | 
+0x0800415a.txt         | ?                  | 
+0x08004340.txt         | ?                  | 
+0x08004450.txt         | ?                  | 
+0x080045cc.txt         | ?                  | 
+0x08004860.txt         | ?                  | 
+0x08004884.txt         | ?                  | 
+0x080048a8.txt         | ?                  | 
+0x0800497c.txt         | ?                  | 
+0x08004ab8.txt         | ?                  | DAT_20000004, DAT_20000304, _DAT_20000304, _DAT_20000308, _DAT_2000030c, _DAT_20000310
+0x08004cc0.txt         | ?                  | 
+0x08004d0c.txt         | ?                  | 
+proc_addrs.txt         | ?                  | 

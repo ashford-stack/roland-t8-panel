@@ -1,0 +1,62 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_08003604(void)
+
+{
+  undefined4 local_30;
+  undefined4 local_2c;
+  undefined4 local_28;
+  undefined4 local_24;
+  uint local_1c;
+  
+  FUN_08000152(&local_30,0x14);
+  _DAT_40021034 = _DAT_40021034 | 0x2f;
+  local_1c = _DAT_40021034 & 8;
+  FUN_08001596(0x50000800,0xe000,0);
+  FUN_08001596(0x50001400,3,0);
+  FUN_08001596(0x50000000,0xa0,0);
+  FUN_08001596(0x50000400,0xfc7,0);
+  FUN_08001596(0x50000c00,8,0);
+  local_30 = 0xe000;
+  local_2c = 1;
+  local_28 = 0;
+  local_24 = 0;
+  FUN_08001430(0x50000800,&local_30);
+  local_30 = 3;
+  local_28 = 0;
+  local_2c = 1;
+  local_24 = 0;
+  FUN_08001430(0x50001400,&local_30);
+  local_30 = 0x80a0;
+  local_28 = 0;
+  local_2c = 1;
+  local_24 = 0;
+  FUN_08001430(0x50000000,&local_30);
+  local_30 = 0xfc7;
+  local_28 = 0;
+  local_2c = 1;
+  local_24 = 0;
+  FUN_08001430(0x50000400,&local_30);
+  local_30 = 0xf000;
+  local_2c = 0;
+  local_28 = 0;
+  FUN_08001430(0x50000400,&local_30);
+  local_28 = 0;
+  local_30 = 8;
+  local_2c = 1;
+  local_24 = 0;
+  FUN_08001430(0x50000c00,&local_30);
+  local_30 = 0x30;
+  local_2c = 0x10210000;
+  local_28 = 0;
+  FUN_08001430(0x50000400,&local_30);
+  local_2c = 0;
+  local_30 = 4;
+  local_28 = 0;
+  FUN_08001430(0x50000c00,&local_30);
+  FUN_08001674(7,0);
+  FUN_0800165c(7);
+  return;
+}
+

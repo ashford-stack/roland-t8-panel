@@ -1,0 +1,10 @@
+
+void FUN_080034b4(int *param_1)
+
+{
+  disableIRQinterrupts();
+  *param_1 = *param_1 + 1;
+  enableIRQinterrupts();
+  return;
+}
+

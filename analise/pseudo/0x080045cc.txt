@@ -1,0 +1,34 @@
+
+void FUN_080045cc(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  uint uVar1;
+  int iVar2;
+  ushort uVar3;
+  int iVar4;
+  undefined4 local_20 [3];
+  
+  local_20[2] = param_4;
+  local_20[1] = param_3;
+  local_20[0] = param_2;
+  for (iVar2 = 0; iVar2 < (int)(uint)*(byte *)(param_1 + 0x265); iVar2 = iVar2 + 1) {
+    iVar4 = iVar2 * 2;
+    *(undefined2 *)((int)local_20 + iVar4) = 0;
+    uVar1 = 0xb;
+    do {
+      if ((*(uint *)(*(int *)(param_1 + 0x25c) + iVar2 * 8 + 4) &
+          (uint)(*(ushort *)((uint)*(byte *)(param_1 + 0x267) * 0x18 + param_1 + uVar1 * 2 + 0x60) &
+                *(ushort *)(uVar1 * 2 + param_1 + 0x240))) == 0) {
+        uVar3 = 0;
+      }
+      else {
+        uVar3 = (ushort)(1 << (uVar1 & 0xff));
+      }
+      uVar1 = (uint)(char)((char)uVar1 + -1);
+      *(ushort *)((int)local_20 + iVar4) = uVar3 | *(ushort *)((int)local_20 + iVar4);
+    } while (-1 < (int)uVar1);
+  }
+  FUN_08004370(param_1,local_20);
+  return;
+}
+

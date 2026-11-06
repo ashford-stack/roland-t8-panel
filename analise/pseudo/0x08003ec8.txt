@@ -1,0 +1,14 @@
+
+void FUN_08003ec8(undefined4 param_1,uint param_2)
+
+{
+  int iVar1;
+  
+  FUN_08000120((uint)DAT_20000058 * 0x80 + 0x2000043c,param_1,param_2);
+  do {
+    iVar1 = FUN_08002834(&DAT_20000350,(uint)DAT_20000058 * 0x80 + 0x2000043c,param_2 & 0xffff);
+  } while (iVar1 != 0);
+  DAT_20000058 = DAT_20000058 + 1 & 1;
+  return;
+}
+

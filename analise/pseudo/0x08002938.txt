@@ -1,0 +1,8 @@
+
+void weak_2938(void)
+
+{
+  FUN_080015b0();
+  return;
+}
+

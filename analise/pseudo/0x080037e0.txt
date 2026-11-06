@@ -1,0 +1,56 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_080037e0(void)
+
+{
+  int iVar1;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  undefined4 local_18;
+  undefined4 local_14;
+  undefined4 local_10;
+  
+  local_28 = 0;
+  local_24 = 0;
+  local_20 = 0;
+  local_1c = 0;
+  local_18 = 0;
+  local_14 = 0;
+  local_10 = 0;
+  _DAT_200002b8 = 0x40000400;
+  _DAT_200002bc = 0;
+  _DAT_200002c0 = 0;
+  _DAT_200002c8 = 0;
+  _DAT_200002c4 = 0x31ff;
+  _DAT_200002d0 = 0x80;
+  iVar1 = FUN_08001f48(&DAT_200002b8);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  local_28 = 0x1000;
+  iVar1 = FUN_08002068(&DAT_200002b8,&local_28);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  local_18 = 0;
+  local_10 = 0;
+  iVar1 = FUN_08001ee4(&DAT_200002b8,&local_18);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  FUN_08002018(&DAT_200002b8);
+  return;
+}
+

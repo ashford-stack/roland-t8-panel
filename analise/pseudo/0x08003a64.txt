@@ -1,0 +1,8 @@
+
+void FUN_08003a64(void)
+
+{
+  FUN_08004860(0x200013cc,0xffffffff);
+  return;
+}
+

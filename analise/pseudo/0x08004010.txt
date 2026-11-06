@@ -1,0 +1,71 @@
+
+void FUN_08004010(void)
+
+{
+  undefined4 local_30;
+  undefined1 uStack_2c;
+  byte local_2b;
+  byte local_2a;
+  byte local_29;
+  byte local_28;
+  byte local_27;
+  byte local_26;
+  byte local_25;
+  byte local_24;
+  byte local_23;
+  byte local_22;
+  byte local_21;
+  byte local_20;
+  byte local_1f;
+  byte local_1e;
+  byte local_1d;
+  byte local_1c;
+  byte local_1b;
+  byte local_1a;
+  byte local_19;
+  byte local_18;
+  byte local_17;
+  byte local_16;
+  byte local_15;
+  byte local_14;
+  undefined4 local_10;
+  undefined4 local_c;
+  undefined4 local_8;
+  
+  local_10 = 0x100b1;
+  FUN_08003ec8(&local_10,3);
+  local_c = 0xd00b0;
+  FUN_08003ec8(&local_c,3);
+  local_30 = 0xb2;
+  FUN_08003ec8(&local_30,3);
+  FUN_08000120(&uStack_2c,&DAT_08004108,0x1c);
+  local_2b = DAT_1fff7590 >> 4;
+  local_2a = DAT_1fff7590 & 0xf;
+  local_29 = DAT_1fff7591 >> 4;
+  local_28 = DAT_1fff7591 & 0xf;
+  local_27 = DAT_1fff7592 >> 4;
+  local_26 = DAT_1fff7592 & 0xf;
+  local_25 = DAT_1fff7593 >> 4;
+  local_24 = DAT_1fff7593 & 0xf;
+  local_23 = DAT_1fff7594 >> 4;
+  local_22 = DAT_1fff7594 & 0xf;
+  local_21 = DAT_1fff7595 >> 4;
+  local_20 = DAT_1fff7595 & 0xf;
+  local_1f = DAT_1fff7596 >> 4;
+  local_1e = DAT_1fff7596 & 0xf;
+  local_1d = DAT_1fff7597 >> 4;
+  local_1c = DAT_1fff7597 & 0xf;
+  local_1b = DAT_1fff7598 >> 4;
+  local_1a = DAT_1fff7598 & 0xf;
+  local_19 = DAT_1fff7599 >> 4;
+  local_18 = DAT_1fff7599 & 0xf;
+  local_17 = DAT_1fff759a >> 4;
+  local_16 = DAT_1fff759a & 0xf;
+  local_15 = DAT_1fff759b >> 4;
+  local_14 = DAT_1fff759b & 0xf;
+  FUN_08003ec8(&uStack_2c,0x19);
+  local_8 = 0xff;
+  FUN_08003ec8(&local_8,1);
+  return;
+}
+

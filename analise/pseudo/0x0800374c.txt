@@ -1,0 +1,71 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_0800374c(void)
+
+{
+  int iVar1;
+  undefined1 auStack_58 [28];
+  undefined4 local_3c;
+  undefined4 local_2c;
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  undefined4 local_18;
+  undefined4 local_14;
+  undefined4 local_10;
+  undefined4 local_c;
+  
+  local_10 = 0;
+  local_c = 0;
+  local_18 = 0;
+  local_14 = 0;
+  local_24 = 0;
+  local_20 = 0;
+  local_1c = 0;
+  FUN_08000152(auStack_58,0x34);
+  _DAT_2000026c = 0x40012c00;
+  _DAT_20000270 = 0;
+  _DAT_20000274 = 0;
+  _DAT_2000027c = 0;
+  _DAT_20000280 = 0;
+  _DAT_20000278 = 15999;
+  _DAT_20000284 = 0x80;
+  iVar1 = FUN_08001f48(&DAT_2000026c);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  local_18 = 0x1000;
+  iVar1 = FUN_08002068(&DAT_2000026c,&local_18);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  local_24 = 0;
+  local_20 = 0;
+  local_1c = 0;
+  iVar1 = FUN_08001ee4(&DAT_2000026c,&local_24);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  local_3c = 0;
+  local_2c = 0;
+  iVar1 = FUN_08001e38(&DAT_2000026c,auStack_58);
+  if (iVar1 != 0) {
+    disableIRQinterrupts();
+    do {
+                    /* WARNING: Do nothing block with infinite loop */
+    } while( true );
+  }
+  FUN_08002018(&DAT_2000026c);
+  return;
+}
+

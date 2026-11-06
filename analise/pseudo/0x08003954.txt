@@ -1,0 +1,8 @@
+
+void cb_3954(void)
+
+{
+  FUN_08003a4c(0x10);
+  return;
+}
+

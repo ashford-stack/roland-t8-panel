@@ -1,0 +1,8 @@
+
+void weak_2970(void)
+
+{
+  FUN_0800215c(&DAT_200002b8);
+  return;
+}
+

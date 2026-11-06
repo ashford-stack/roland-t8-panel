@@ -1,0 +1,37 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_08003460(void)
+
+{
+  int iVar1;
+  uint in_r3;
+  uint local_18;
+  
+  local_18 = in_r3;
+  do {
+    while( true ) {
+      iVar1 = FUN_08003e5c(&local_18);
+      if (iVar1 == 0) {
+        return;
+      }
+      if (0x7f < (local_18 & 0xff)) break;
+      if ((_DAT_20000008 == 1) || (_DAT_20000008 == 2)) {
+        (&DAT_20000024)[_DAT_20000008] = (byte)local_18;
+        _DAT_20000008 = _DAT_20000008 + 1;
+        if (_DAT_20000008 == 3) {
+LAB_08003484:
+          _DAT_20000008 = 0;
+          FUN_08003fc0();
+        }
+      }
+      else {
+        _DAT_20000008 = 0;
+      }
+    }
+    DAT_20000024 = (byte)local_18;
+    if ((byte)local_18 >> 4 == 0xf) goto LAB_08003484;
+    _DAT_20000008 = 1;
+  } while( true );
+}
+
